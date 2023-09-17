@@ -1,1 +1,10 @@
+# kadai005
 
+the_upper_base = 10
+the_lower_base = 20
+hight          = 5 
+
+# 台形の面積を求める
+the_surface_area_of_trapezoid = (the_upper_base + the_lower_base) * hight / 2
+
+print(f"{the_surface_area_of_trapezoid}㎠")
