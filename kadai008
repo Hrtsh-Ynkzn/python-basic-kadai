@@ -1,0 +1,20 @@
+# kadai_008
+
+# ３の倍数   ：Fizz
+# ５の倍数   ：Buzz
+# １５の倍数 :FizzBuzz
+# それ以外   :varを出力する条件式？
+
+var = int(input("var:"))
+
+if (var / 3 == 0):
+    print("Fizz")
+
+elif (var / 5 == 0):
+    print("Buzz")
+
+elif (var / 15 == 0):
+    print("FizzBuzz")
+
+else:
+    print("varを出力する条件式とは？")
