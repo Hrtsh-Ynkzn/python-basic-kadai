@@ -1,0 +1,13 @@
+# kadai_011
+
+list = ["水","金","地","火","木","土","天","海","冥"]
+
+# forを用いる
+for i in list:
+    print(i)
+
+# whileを用いる
+j = 0
+while j < 9:
+    print(list[j])
+    j = j + 1
