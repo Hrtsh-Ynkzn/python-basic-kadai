@@ -5,3 +5,6 @@
 def Fee_contain_consumption_tax(price, consumption_tax = 0.1):    # 消費税はデフォルト引数を定義
     total = price * (1 + consumption_tax)
     return total
+
+# 定義した関数を呼び出し、使用されている
+Fee_contain_consumption_tax(1000)
