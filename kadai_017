@@ -1,0 +1,26 @@
+# kadai_017
+
+class Human:
+    
+    def __init__(self, name, age):    # コンストラクタ
+        self.name = name              # 名前
+        self.age  = age               # 年齢
+    
+    def check_adult(self):
+        if self.age >= 20:
+            print("adult")
+        else:
+            print("child")
+
+# Humanクラスを複数インスタンス化
+Taro   = Human("Taro", 30)
+Jiro   = Human("Jiro", 25)
+Saburo = Human("Saburo", 20)
+Shiro  = Human("Shiro", 15)
+
+# リストにオブジェクトを格納
+info = [Taro, Jiro, Saburo, Shiro]
+
+# リストの要素分だけcheck_adultメソッドを呼び出す
+for i in info:
+    i.check_adult()
