@@ -1,0 +1,11 @@
+# kadai_014
+
+price1 = 100
+price2 = 200
+tax = 1.1       # グローバル変数として定義する
+
+def total():
+    #tax = 1.1    ローカル変数として定義すると、関数の外では使えない。
+    return price1 + price2
+
+print (total() * tax)
