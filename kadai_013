@@ -1,0 +1,7 @@
+# kadai_013
+# 商品を子入試手、消費税を加えた計算結果を返す関数を記述する。
+# 第1引数に商品の金額、第２引数に消費税（10%）を設定する。
+
+def Fee_contain_consumption_tax(price, consumption_tax = 0.1):    # 消費税はデフォルト引数を定義
+    total = price * (1 + consumption_tax)
+    return total
